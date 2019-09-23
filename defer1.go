@@ -6,6 +6,7 @@ func display(a int) {
 }
 func main() {  
     defer display(1)
+    fmt.Println("testing print")
     defer display(2)
     defer display(3)
     fmt.Println(4)
