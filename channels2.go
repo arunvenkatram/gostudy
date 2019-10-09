@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-import "time"
+import (
+	"fmt"
+	"time"
+)
 
 //This subroutine pushes numbers 0 to 9 to the channel and closes the channel
 func add_to_channel(ch chan int) {
@@ -41,6 +43,6 @@ func main() {
 	go fetch_from_channel(ch)
 
 	//delay is to prevent the exiting of main() before goroutines finish
-	time.Sleep(5 * time.Second)
+	time.Sleep(1 * time.Second)
 	fmt.Println("Inside main()")
 }
