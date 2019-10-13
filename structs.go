@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-//declared the structure named emp
+//declared the structure named emp outside all functions. So, a struct can be used as an object in any functions.
+// a struct can also be declared inside a function, but in this case, it can be used only within a function.
 type emp struct {
 	name    string
 	address string
