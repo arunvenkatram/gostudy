@@ -1,0 +1,12 @@
+Links:
+
+https://medium.com/rungo/interfaces-in-go-ab1601159b3a
+https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc
+https://medium.com/rungo/variadic-function-in-go-5d9b23f4c01a
+https://medium.com/rungo/unit-testing-made-easy-in-go-25077669318
+https://medium.com/rungo/anatomy-of-modules-in-go-c8274d215c16
+https://medium.com/rungo/error-handling-in-go-f0125de052f0
+https://medium.com/rungo/anatomy-of-channels-in-go-concurrency-in-go-1ec336086adb#targetText=A%20channel%20is%20a%20communication,data%20from%20the%20same%20channel.
+.
+.
+.
